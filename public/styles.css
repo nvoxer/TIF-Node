@@ -1,0 +1,118 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #0b0b0b;
+    text-align: center;
+}
+
+#movie-form, #login-form, #register-form {
+    max-width: 600px;
+    margin: 20px auto;
+    margin-top: 100px;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    color: #0b0b0b;
+}
+
+#movie-form h2, #login-form h2, #register-form h2 {
+    margin-top: 50;
+    color: #0b0b0b;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, button {
+    padding: 10px;
+    margin-top: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 1px solid #bebebe;
+    font-size: 16px;
+    background-color: #ffffff;
+}
+
+input:focus {
+    outline: none;
+    border-color: #8eb9e4;
+}
+
+button {
+    background-color: #0077ff;
+    color: #1d2938;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #3e98ff;
+}
+
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+    font-size: 16px;
+}
+
+th {
+    background-color: #0077ff;
+    color: white;
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+
+.actions button {
+    margin: 0 5px;
+    padding: 5px 10px;
+}
+
+.actions button:first-child {
+    background-color: #28a745;
+    border: none;
+}
+
+.actions button:first-child:hover {
+    background-color: #218838;
+}
+
+.actions button:last-child {
+    background-color: #dc3545;
+    border: none;
+}
+
+.actions button:last-child:hover {
+    background-color: #c82333;
+}
+
+#error-message, #register-error-message {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
