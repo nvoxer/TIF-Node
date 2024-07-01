@@ -17,10 +17,10 @@ app.use(express.static(path.join(__dirname, 'public')))
 
 // MySQL
 const db = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'movies_db'
+    host: 'b4dlndpkuwqn161etajx-mysql.services.clever-cloud.com',
+    user: 'uqvs8fqnb7pmimsn',
+    password: 'IXFpNX0fFOgEj8KPzjSV',
+    database: 'b4dlndpkuwqn161etajx'
 });
 
 db.connect(err => {
