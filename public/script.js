@@ -95,6 +95,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     <td>${movie.genre}</td>
                     <td class="actions">
                         <button onclick="editMovie(${movie.id})">Editar</button>
+                        <br><br>
                         <button onclick="deleteMovie(${movie.id})">Eliminar</button>
                     </td>
                 `;
