@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', function () {
             .then(response => response.json())
             .then(data => {
                 if (data.message === 'Usuario registrado') {
-                    alert("Usuario registrado exitosamente, por favor inicie sesión");
+                    alert(`Usuario ${username} registrado exitosamente, por favor inicie sesión`);
                     window.location.href = '/login.html';
                 } else {
                     registerErrorMessage.textContent = data.message || 'Error al registrarse';
@@ -147,7 +147,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    // rellenar edit form
+    // Rellenar edit form al editar
     window.editMovie = function (id) {
         fetch(`/movies/${id}`, {
             headers: {
