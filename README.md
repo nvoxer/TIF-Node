@@ -1,4 +1,5 @@
 POSTMAN:
+
 -Ruta protegida /movies
 
 -Registrarse enviando un json en body con "username" y "password" a /register
